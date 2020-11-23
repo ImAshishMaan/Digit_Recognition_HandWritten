@@ -30,7 +30,7 @@ while True:
     cv2.imshow('Draw',canvas)
     key = cv2.waitKey(1) & 0xFF
     if key == ord('q'):
-        break;
+        break
     elif key == ord('p'):
         img = canvas/255
         img = cv2.resize(canvas, (28,28)).reshape(1,28,28)
